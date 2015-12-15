@@ -1,0 +1,382 @@
+/*Initialize method*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+
+/*HTML and Body setup*/
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  min-width: 380px;
+}
+
+
+p {
+  line-height: 1.6em;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 33px;
+  margin-bottom: 35px;
+}
+
+.clear:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/***********HEADER CSS*************/
+
+.container {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+
+/***********HEADER CSS*************/
+
+.image-header {
+  position: relative;
+  height: 800px;
+   background: url(res/macs.png) no-repeat center center fixed; 
+}
+
+.image-header {
+  position: relative;
+  height: 800px;
+  width: 100%;
+  background: url(res/macs.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+}
+
+
+.top-text {
+  width: 70%;
+  height: 15%;
+}
+
+.top-text {
+  width: 936px;
+  height: 54px;
+  background-color: black;
+  color: white;
+  margin: 0 auto;
+}
+
+
+.info {
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 1.6em;
+}
+
+.info {
+  display: table;
+  margin: 0 auto;
+  font-size: 1.8em;
+}
+
+
+.skills {
+  width: 70%;
+  width: 936px;
+  margin: 0 auto;
+  color: white;
+  font-size: 4em;
+  text-transform: uppercase;
+}
+
+.bottom-text {
+  width: 70%;
+  height: 56px;
+}
+
+.bottom-text {
+  width: 936px;
+  height: 54px;
+  background-color: black;
+  color: white;
+  margin: 0 auto;
+}
+
+ul{
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+ul{
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 1.4em;
+}
+
+.center-link {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+
+
+.small {
+  font-size: 0.5em;
+}
+
+
+
+.header-design {
+  position: absolute;
+  width: 100%;
+  margin-top: 10%;
+}
+
+.center-link {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+/*ABOUT ME BLOCK*/
+
+.about-me {
+  width: 100%;
+  padding: 60px 0;
+}
+
+
+.text {
+  float: left;
+  width: 64%;
+ 
+}
+
+.text p {
+   font-size: 17px;
+  margin-bottom: 35px;
+}
+
+
+
+.picture {
+  width: 32.6%;
+  margin-right: 3.4%;
+  float: left;
+}
+
+img {
+  width: 100%;
+}
+
+.section-container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.contact-me {
+  background-color: #dedbdb;
+  width: 100%;
+  padding: 60px 0;
+}
+
+label {
+  display:block;
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+
+form {
+  width: 63.29%;
+}
+
+form input {
+  padding: 10px 0;
+  width: 100%;
+}
+
+textarea {
+  height: 165px;
+  resize: none;
+  width: 100%;
+}
+
+button {
+  margin-top: 35px;
+  padding: 8px 12px;
+  min-width: 160px;
+}
+
+footer {
+  background-color: #212121;
+  padding: 20px 0;
+  vertical-align: middle; 
+}
+
+footer a, footer a:visited {
+  color: #fff;
+  padding-top: 25px;
+}
+
+footer a:hover {
+  color: #0054a6;
+}
+
+.social-links {
+  float: right;
+}
+
+.social-links img {
+  width: 50px;
+  height: 50px;
+}
+
+
+/*Media Queries*/
+
+@media screen and (min-width: 500px) {
+   .image-header {
+    height: 400px;
+  }
+  
+    .bottom-text li {
+    font-size: 1em;
+  }
+  
+  .bottom-text ul {
+    padding-top: 5%;
+  }
+    
+  .skills {
+    font-size: 2em;
+  }
+  
+}
+
+@media screen and (max-width: 768px) {
+   .skills, .top-text, .bottom-text, .section-container {
+     width: 80%;
+   }
+  
+
+  .image-header {
+    height: 500px;
+  }
+  
+    .bottom-text li {
+    font-size: 1em;
+  }
+  
+  .bottom-text ul {
+    padding-top: 5%;
+  }
+    
+  .skills {
+    font-size: 2em;
+  }
+  
+  .text {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  .picture {
+    width: 100%;
+    margin-right: 0;
+    float: none;
+    max-height: 300px;
+    overflow: hidden;
+  }
+  
+  h1 {
+    margin-top: 35px;
+  }
+  
+  
+    .contact-me {
+    width: 100%;
+      text-align: center;
+  }
+  
+  form {
+    width: 100%;
+  }
+
+  label {
+    text-align: left;
+
+  }
+
+
+  button {
+    width: 100%;
+  }
+
+  
+  
+}
+
+
+@media screen and (min-width: 600px) {
+ .skills {
+    font-size: 2.5em;
+  }
+  
+    .image-header {
+    height: 700px;
+  }
+  
+    .bottom-text ul {
+    padding-top: 3%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+ .skills {
+    font-size: 3em;
+  }
+}
+
+@media screen and (min-width: 900px) {
+ .skills {
+    font-size: 3.5em;
+  }
+}
+
+
+
+
+
+
+
+
